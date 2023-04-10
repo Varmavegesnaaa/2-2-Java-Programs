@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module 2</title>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: lightgreen;
+    }
+    #main{
+        overflow: auto;
+    }
+    #box{
+        background-color: grey;
+        float: left;
+        width: 425px;
+        height: 200px;
+        border: 1px solid black;
+        margin-right: 30px;
+        margin-left: 15px;
+        margin-top: 40px;
+    }
+    #label{
+        height: 30px;
+        text-align:center;
+        width:100px;
+        float:right;
+
+    }
+    #content{
+        margin-top: 30px;
+    }
+</style>
+</head>
+<body>
+    <center>
+    <h1>OUR MENU</h1>
+    
+    <div id="login">
+        <table>
+            <form name="loginpage" action="/adduser" method="post">
+            <tr>
+            <td><h4>Username:</h4>
+            <td><input type="text" name="name" id="txtfld" placeholder="Enter user name"></tr>
+            <tr>
+                <td><h4>Email:</h4>
+                <td><input type="text" name="email" id="txtfld" placeholder="Enter email id"></tr>
+            <tr>
+                <td><h4>Phone no:</h4>
+                <td><input type="number" name="phone" id="txtfld" placeholder="Enter Phone no"></tr>
+                <tr>
+                    <td><h4>Password:</h4>
+                    <td><input type="password" name="password" id="txtfld" placeholder="Enter Password"></tr>
+                        <tr>
+                            <td><h4>Item:</h4>
+                            <td><input type="text" name="item" id="txtfld" placeholder="Enter Item"></tr>
+            <td>
+            <td><button name="btn">Submit</button>
+            </tr>
+    </div>
+</center>
+    <div id="main">
+        <div id="box">
+           <div id="label" style="background-color: lightpink;">
+                Chicken
+            </div>
+            <div id="content">
+                This item is called as chicken.It tastes like you were in heaven.I think you would love it a lot.Chickens are gregarious birds and live together in flocks. They have a communal approach to the incubation of eggs and raising of young.Thank you.
+            </div>
+        </div>
+        <div id="box">
+           <div id="label" style="background-color:brown;">
+                Fish
+            </div>
+            <div id="content">
+Fish are aquatic, craniate, gill-bearing animals that lack limbs with digits. Included in this definition are the living hagfish, lampreys, and cartilaginous and bony fish as well as various extinct related groups.            </div>
+        </div>
+        <div id="box">
+           <div id="label" style="background-color: lightyellow;">
+                Prawn
+            </div>
+            <div id="content">
+According to the crustacean taxonomist Tin-Yam Chan, "The terms shrimp and prawn have no definite reference to any known taxonomic groups. Although the term shrimp is sometimes applied to smaller species, while prawn is more often used for larger forms            </div>
+        </div>
+    </div>
+</body>
+</html>
